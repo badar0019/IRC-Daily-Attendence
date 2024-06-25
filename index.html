@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>July Attendance Tracker</h1>
+        <form id="attendanceForm">
+            <div class="students">
+                <!-- Student sections will be dynamically added here -->
+            </div>
+            <button type="button" onclick="generateReport()">Generate Report</button>
+        </form>
+        <div id="report" class="report">
+            <!-- Report will be displayed here -->
+        </div>
+        <button id="copyButton" onclick="copyReport()">Copy Report</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
